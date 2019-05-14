@@ -1,0 +1,14 @@
+
+Oct. 1, 2008
+The driver can work. But not on all e1000 cards that can support.
+
+Oct. 2, 2008
+Add es2, 82571 helper functions.
+Change Makefile to adopt any directory
+Change Info,plist to support all kinds of e1000e ethernet chip
+
+Oct. 14, 2008
+Change interruptFilter to avoid potential interrupt sharing issue.
+
+Oct. 15, 2008
+Support netstat to record the inputpackets and outputpackets

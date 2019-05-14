@@ -1,0 +1,18 @@
+1, Compile:
+
+In this directory, run make.
+
+2, Change to root user, run su.
+
+3, Go to /tmp directory.
+
+4. copy Intel82566MM.kext that you have compiled successfully to /tmp/.
+
+5. Load kext. run kextload Intel82566MM.kext in /tmp directory as root user.
+
+6. Unload kext. run kextunload Intel82566MM.kext in /tmp directory root user.
+
+7. Autoload when rebooting:
+	a, copy Intel82566MM.kext to /System/Library/Extensions/ as root user.
+	b. delete cache files. rm -rf /System/Library/Extensions.kext; rm -rf /System/Library/Caches.
+	c. reboot
